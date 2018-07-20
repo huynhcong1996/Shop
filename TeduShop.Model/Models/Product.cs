@@ -38,6 +38,6 @@ namespace TeduShop.Model.Models
         public int? ViewCount { set; get; }
 
         [ForeignKey("CategoryID")]
-        public virtual ProductCategory ProductCategorys { set; get; }
+        public virtual ProductCategory ProductCategories { set; get; }
     }
 }

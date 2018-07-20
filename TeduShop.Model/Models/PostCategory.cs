@@ -9,7 +9,7 @@ using TeduShop.Model.Abstract;
 
 namespace TeduShop.Model.Models
 {
-    [Table("PostCategorys")]
+    [Table("PostCategories")]
     public class PostCategory: Auditable
     {
         [Key]

@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TeduShop.Data.Infrastructure
 {
-    public abstract class RepositoryBase<T>:IRepository<T> where T:class
+    public abstract class RepositoryBase<T> : IRepository<T> where T : class
     {
         #region Properties
 
@@ -148,6 +146,6 @@ namespace TeduShop.Data.Infrastructure
             return dataContext.Set<T>().Count<T>(predicate) > 0;
         }
 
-        #endregion Implementation    
+        #endregion Implementation
     }
 }

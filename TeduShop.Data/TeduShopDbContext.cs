@@ -32,6 +32,11 @@ namespace TeduShop.Data
         public DbSet<SystemConfig> SystemConfigs { set; get; }
         public DbSet<Tag> Tags { set; get; }
         public DbSet<VisitorStatistic> VisitorStatistics { set; get; }
+        public object Functions { get; internal set; }
+        public object Permissions { get; internal set; }
+        public object AppRoles { get; internal set; }
+        public object UserRoles { get; internal set; }
+        public object Users { get; internal set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

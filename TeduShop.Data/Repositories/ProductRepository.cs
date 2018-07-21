@@ -21,7 +21,7 @@ namespace TeduShop.Data.Repositories
             var query = from p in DbContext.Products
                         join pt in DbContext.ProductTags
                         on p.ID equals pt.ProductID
-                        //where pt.TagID == tagId
+                        where pt.TagID == tagId
                         select p;
             totalRow = query.Count();
 

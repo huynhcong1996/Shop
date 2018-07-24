@@ -22,18 +22,5 @@ namespace TeduShop.Model.Abstract
         public string UpdatedBy { set; get; }
 
         public bool Status { set; get; }
-
-        bool IAuditable.Status
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
     }
 }

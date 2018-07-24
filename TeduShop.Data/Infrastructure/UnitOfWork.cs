@@ -21,7 +21,6 @@ namespace TeduShop.Data.Infrastructure
         public void Commit()
         {
             dbContext.SaveChanges();
-            //throw new NotImplementedException();
         }
     }
 }

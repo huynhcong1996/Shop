@@ -53,22 +53,7 @@
   <ItemGroup>
     <Compile Include="Abstract\Auditable.cs" />
     <Compile Include="Abstract\IAuditable.cs" />
-    <Compile Include="Models1\dbModel.cs" />
-    <Compile Include="Models1\Foodter.cs" />
-    <Compile Include="Models1\Menu.cs" />
-    <Compile Include="Models1\MenuGroup.cs" />
-    <Compile Include="Models1\Order.cs" />
-    <Compile Include="Models1\OrderDetail.cs" />
-    <Compile Include="Models1\Page.cs" />
-    <Compile Include="Models1\Post.cs" />
-    <Compile Include="Models1\PostCategory.cs" />
-    <Compile Include="Models1\Product.cs" />
-    <Compile Include="Models1\ProductCategory.cs" />
-    <Compile Include="Models1\Slide.cs" />
-    <Compile Include="Models1\SupportOnline.cs" />
-    <Compile Include="Models1\SystemConfig.cs" />
-    <Compile Include="Models1\Tag.cs" />
-    <Compile Include="Models1\VisitorStatistic.cs" />
+    <Compile Include="Models\Error.cs" />
     <Compile Include="Models\Footer.cs" />
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\MenuGroup.cs" />

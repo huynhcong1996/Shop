@@ -21,18 +21,11 @@ namespace TeduShop.Service
     }
     public class PostCategoryService : IPostCategoryService
     {
-        private IPostCategoryRepository object1;
-        private IUnitOfWork object2;
-        IPostCategoryRepository _postCategoryRepository;
-        IUnitOfWork _unitOfWork;
-
-        public PostCategoryService(IPostCategoryRepository object1, IUnitOfWork object2)
-        {
-            this.object1 = object1;
-            this.object2 = object2;
-        }
-
-        public PostCategoryService(IPostCategoryRepository postCategoryRepository, UnitOfWork unitOfWork)
+        
+        private IPostCategoryRepository _postCategoryRepository;
+        private IUnitOfWork _unitOfWork;
+        
+        public PostCategoryService(IPostCategoryRepository postCategoryRepository, IUnitOfWork unitOfWork)
         {
             this._postCategoryRepository = postCategoryRepository;
             this._unitOfWork = unitOfWork;

@@ -1,4 +1,7 @@
-﻿using TeduShop.Data.Infrastructure;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using TeduShop.Data.Infrastructure;
 using TeduShop.Model.Models;
 
 namespace TeduShop.Data.Repositories
@@ -12,5 +15,6 @@ namespace TeduShop.Data.Repositories
         public PostCategoryRepository(IDbFactory dbFactory) : base(dbFactory)
         {
         }
+
     }
 }
